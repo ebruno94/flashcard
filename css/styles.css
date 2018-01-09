@@ -6,6 +6,10 @@ p {
   display: none;
 }
 
+img {
+  width: 100%;
+}
+
 .jumbotron {
   background-image: url("../img/walrus-stache.jpg");
   background-color: #cccccc;
@@ -18,6 +22,10 @@ p {
 
 .flashcard {
   background-color: lightgray;
-  margin: 5px;
-  border: 2px black;
+  float: none;
+  margin: 2px auto;
+}
+
+.row{
+  margin: 2px auto;
 }
